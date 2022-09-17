@@ -1,5 +1,6 @@
-var NewComponent = React.createClass({
-  render: function() {
+import Head from 'next/head';
+import Image from 'next/image';
+import stales from 'next/stales/home.module.css';
     return (
       <div>
         <title>W3.CSS Template</title>
@@ -77,4 +78,4 @@ var NewComponent = React.createClass({
       </div>
     );
   }
-});
+}

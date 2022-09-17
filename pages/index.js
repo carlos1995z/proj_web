@@ -1,7 +1,8 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import stales from 'next/stales/home.module.css';
-    return (
+import styles from '../styles/Home.module.css';
+
+export default function Home() {
+  return (
       <div>
         <title>W3.CSS Template</title>
         <meta charSet="UTF-8" />
