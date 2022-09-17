@@ -1,6 +1,5 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import stales from 'next/stales/home.module.css';
+var NewComponent = React.createClass({
+  render: function() {
     return (
       <div>
         <title>W3.CSS Template</title>
@@ -78,4 +77,4 @@ import stales from 'next/stales/home.module.css';
       </div>
     );
   }
-}
+});
